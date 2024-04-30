@@ -5,6 +5,7 @@ import Marque from "./components/Marque";
 import About from "./components/About";
 import Eyes from "./components/Eyes";
 import Feature from "./components/Feature";
+import Cards from "./components/Cards";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Eyes />
       <Feature />
+      <Cards />
     </div>
   );
 }
