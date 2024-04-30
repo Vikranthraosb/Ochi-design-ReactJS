@@ -6,6 +6,7 @@ import About from "./components/About";
 import Eyes from "./components/Eyes";
 import Feature from "./components/Feature";
 import Cards from "./components/Cards";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Eyes />
       <Feature />
       <Cards />
+      <Footer />
     </div>
   );
 }
