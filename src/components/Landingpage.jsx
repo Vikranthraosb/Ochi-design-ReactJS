@@ -25,7 +25,10 @@ function Landingpage() {
       <div className="border-t-2 border-zinc-700 mt-[7vw] flex items-center justify-between py-8 px-20">
         {["For public and private companies", "From pitch to IPO"].map(
           (item, index) => (
-            <p className="text-md font-light tracking-tight leading-none">
+            <p
+              key={index}
+              className="text-md font-light tracking-tight leading-none"
+            >
               {item}
             </p>
           )
