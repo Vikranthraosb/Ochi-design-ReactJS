@@ -10,7 +10,8 @@ function Landingpage() {
             We create
           </h1>
         </div>
-        <div className="masker">
+        <div className="masker flex items-end gap-5">
+          <div className="bg-green-500 px-5 py-4 w-[9vw] rounded-xl h-[4vw]"></div>
           <h1 className="uppercase text-[6.5vw] leading-[6vw] tracking-tighter">
             Eye Opening
           </h1>
