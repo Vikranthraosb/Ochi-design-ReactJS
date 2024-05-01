@@ -4,7 +4,12 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 function Landingpage() {
   return (
-    <div className="w-full h-screen bg-zinc-800 pt-1">
+    <div
+      data-scroll
+      data-scroll-speed="-.3"
+      className="w-full h-screen bg-zinc-800 pt-10"
+    >
+      {/* made this page scroll slow using locomotive js */}
       <div className="textstructure mt-[8vw] px-20">
         <div className="masker">
           <h1 className="uppercase text-[6.5vw] leading-[6vw] tracking-tighter font-semibold">
@@ -28,7 +33,7 @@ function Landingpage() {
           </h1>
         </div>
       </div>
-      <div className="border-t-2 border-zinc-700 mt-[7vw] flex items-center justify-between py-8 px-20">
+      <div className="border-t-2 border-zinc-700 mt-[7vw] flex items-center justify-between pt-8 px-20">
         {["For public and private companies", "From pitch to IPO"].map(
           (item, index) => (
             <p

@@ -3,7 +3,14 @@ import React from "react";
 
 function Marque() {
   return (
-    <div className="w-full py-20 bg-[#104e46] rounded-3xl">
+    <div
+      data-scroll
+      data-scroll-speed="-.1"
+      data-scroll-section
+      className="w-full py-20 bg-[#104e46] rounded-3xl"
+    >
+      {/* made this page scroll slow using locomotive js */}
+
       <div className="text border-y-2 border-zinc-400 flex whitespace-nowrap items-center overflow-hidden py-1 capitalize pr-20">
         <motion.h1
           initial={{ x: "0" }}

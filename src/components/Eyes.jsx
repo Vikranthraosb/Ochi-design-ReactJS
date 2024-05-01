@@ -18,7 +18,13 @@ function Eyes() {
 
   return (
     <div className="eyes w-full h-screen overflow-hidden">
-      <div className="relative w-full h-full bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg')] bg-cover bg-center">
+      <div
+        data-scroll
+        data-scroll-speed="-.5"
+        className="relative w-full h-full bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg')] bg-cover bg-center"
+      >
+        {/* made this page scroll slow using locomotive js */}
+
         <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10">
           <div className="w-[14vw] h-[14vw] rounded-full bg-white flex items-center justify-center">
             <div className="w-2/3 h-2/3 rounded-full bg-zinc-900 relative">
