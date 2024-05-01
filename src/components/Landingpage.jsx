@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { MdOutlineArrowOutward } from "react-icons/md";
 
@@ -11,7 +12,12 @@ function Landingpage() {
           </h1>
         </div>
         <div className="masker flex items-end gap-5">
-          <div className="bg-green-500 px-5 py-4 w-[9vw] rounded-xl h-[4vw]"></div>
+          <motion.div
+            initial={{ width: 0 }}
+            animate={{ width: "9vw" }}
+            transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
+            className="bg-red-500 px-5 py-4 w-[9vw] rounded-xl h-[4vw]"
+          ></motion.div>
           <h1 className="uppercase text-[6.5vw] leading-[6vw] tracking-tighter">
             Eye Opening
           </h1>
