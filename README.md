@@ -6,7 +6,7 @@
 
 ## Features
 
-- Developed with **React.js**.
+- Developed with **React.js** using Vite.
 - Utilizes **Tailwind CSS** for UI styling.
 - Animations are implemented using **Framer-Motion** and **locomotive.js**.
 
